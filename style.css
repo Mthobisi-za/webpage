@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    width: 100%;
+    background: #ddd;
+}
+
+.profile_holder {
+    display: none;
+}
+
+.profile_holder_lap {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-image: url('https://www.hellocapetown.org/wp-content/uploads/2021/01/TMACCsunsetofficialimage.jpg');
+    background-size: cover;
+}
+
+.bg_lap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(131, 127, 127, 0.856);
+}
+
+.picturediv_lap {
+    width: 50%;
+    height: auto;
+}
+
+.img1_lap {
+    width: 30%;
+    height: auto;
+    display: block;
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1_lap {
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+}
+
+
+/*city-----*/
+
+.city_laptop {
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(61, 59, 59);
+    font-family: sans-serif;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    width: 90%;
+}
+
+.city {
+    display: none;
+}
+
+.city_laptop {
+    display: block;
+}
+
+.h3_city_laptop {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.picturecity_laptop {
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+}
+
+.mg_laptop {
+    box-shadow: -7px -9px rgba(49, 46, 46, 0.637);
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.listreason_laptop {
+    width: 100%;
+    height: auto;
+}
+
+.p_city_laptop {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: 1;
+    color: rgb(53, 51, 51);
+}
+
+.lang {
+    width: 80%;
+    height: auto;
+    background: rgba(128, 125, 125, 0.521);
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(61, 59, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p_lang {
+    text-align: center;
+}
+
+.holderlang {
+    width: 80%;
+    height: auto;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+}
+
+.li_lang {
+    list-style-type: disc;
+}
+
+.histo {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.histo_holder {
+    width: 100%;
+    height: auto;
+}
+
+.h1_histo {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.information {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img_1_laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.p_histo_laptop {
+    width: 30%;
+    display: block;
+    margin-left: 5px;
+    font-family: sans-serif;
+}
+
+
+/*city-----*/
+
+
+/*-----lang--*/
+
+.lang {
+    display: none;
+}
+
+.lang_laptop {
+    display: block;
+    width: 80%;
+    height: auto;
+    background: rgba(128, 125, 125, 0.521);
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(61, 59, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p_lang {
+    text-align: center;
+}
+
+.holderlang {
+    width: 80%;
+    height: auto;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+}
+
+.li_lang {
+    list-style-type: disc;
+}
+
+
+/*-----lang-----*/
+
+
+/*---history--*/
+
+.histo {
+    display: none;
+}
+
+.history_laptop {
+    display: block;
+}
+
+.div1 {
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+.para {
+    width: 50%;
+}
+
+.pic {
+    margin-top: 0%;
+    width: 50%;
+}
+
+.img_sec {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---history--*/
+
+
+/*----media-----*/
+
+@media(max-width: 500px) {
+    .history_laptop {
+        display: none;
+    }
+    body {
+        margin: 0;
+        font-family: fantasy;
+        width: 100%;
+        background: #ddd;
+    }
+    .city_laptop {
+        display: none;
+    }
+    .profile_holder_lap {
+        display: none;
+    }
+    .profile_holder {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-image: url('https://www.hellocapetown.org/wp-content/uploads/2021/01/TMACCsunsetofficialimage.jpg');
+        background-size: cover;
+    }
+    .bg {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        background-color: rgba(131, 127, 127, 0.568);
+    }
+    .picturediv {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .img1 {
+        display: block;
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .h1 {
+        text-align: center;
+        color: rgba(17, 16, 16, 0.815);
+        letter-spacing: 5px;
+        background: rgba(133, 130, 130, 0.74);
+    }
+    /*--------city---*/
+    .city {
+        display: block;
+        width: 90%;
+        height: auto;
+        background: rgba(128, 125, 125, 0.521);
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(61, 59, 59);
+        font-family: sans-serif;
+    }
+    .h3_city {
+        text-align: center;
+        margin-top: 0;
+        font-weight: bold;
+        text-shadow: -3px 2px gray;
+    }
+    .picturecity {
+        width: 100%;
+        margin-top: 0;
+        height: auto;
+    }
+    .mg {
+        box-shadow: -7px -9px rgba(49, 46, 46, 0.637);
+        width: 70%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    .listreason {
+        width: 100%;
+        height: auto;
+    }
+    .p_city {
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-weight: 1;
+        color: rgb(53, 51, 51);
+    }
+    .lang_laptop {
+        display: none;
+    }
+    .lang {
+        display: block;
+        width: 80%;
+        height: auto;
+        background: rgba(128, 125, 125, 0.521);
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(61, 59, 59);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .p_lang {
+        text-align: center;
+    }
+    .holderlang {
+        width: 80%;
+        height: auto;
+        font-family: monospace;
+        display: flex;
+        flex-direction: row;
+    }
+    .li_lang {
+        list-style-type: disc;
+    }
+    .histo {
+        width: 100%;
+        height: auto;
+        font-family: sans-serif;
+        display: block;
+    }
+    .histo_holder {
+        width: 100%;
+        height: auto;
+    }
+    .h1_histo {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .information {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .img_1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        height: auto;
+    }
+    .p_histo {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*--------city---*/
+    .histo_laptop {
+        display: none;
+    }
+}
+
+
+/*----media-----*/
+
+
+/*----media-----*/
