@@ -72,7 +72,8 @@ body {
 }
 
 .h3_city_laptop {
-    text-align: center;
+    margin-left: 9%;
+    text-align: left;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -119,7 +120,10 @@ body {
     color: rgb(61, 59, 59);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.h3lang{
+    text-align: left;
+    margin-left: 9%;
+}
 .p_lang {
     text-align: center;
 }
@@ -223,7 +227,7 @@ body {
 }
 
 .history_laptop {
-    display: block;
+    display: none;
 }
 
 .div1 {
@@ -413,9 +417,39 @@ body {
         margin-right: auto;
     }
     /*--------city---*/
-    .histo_laptop {
-        display: none;
-    }
+    
+    
+.history_laptop {
+    display: block;
+}
+
+.div1 {
+    margin-top: 10px;
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+.para {
+    width: 50%;
+}
+
+.pic {
+    margin-top: 0%;
+    width: 50%;
+}
+
+.img_sec {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lap{
+    display: none;
+}
 }
 
 
