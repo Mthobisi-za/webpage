@@ -4,7 +4,9 @@ body {
     width: 100%;
     background: #ddd;
 }
-
+.lopp{
+    display: none;
+}
 .profile_holder {
     display: none;
 }
@@ -372,6 +374,10 @@ body {
         color: rgb(61, 59, 59);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+    .plw{
+        font-size: medium;
+        margin-left: 5%;
+    }
     .p_lang {
         text-align: center;
     }
@@ -419,10 +425,21 @@ body {
     }
     /*--------city---*/
     
-    
+    .lopp{
+        background: rgba(128, 125, 125, 0.521);
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: sans-serif;
+    }
+    .hy{
+        font-size: medium;
+        margin-left: 5%;
+    }
 .history_laptop {
     display: block;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
